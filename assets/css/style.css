@@ -1,9 +1,4 @@
 
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  
   html,
   body {
     min-height: 100%;
@@ -33,44 +28,6 @@
     margin-bottom: 1rem;
   }
   
-  .card .card-header {
-    padding: 0.375rem;
-    background-color: #00438b;
-    color: #d9e9e8;
-  }
-  
-  .card .card-body {
-    padding: 0.375rem;
-  }
-  
-  .card .card-footer {
-    border-top: 1px solid #470000;
-    padding: 0.375rem;
-  }
-  
-  .card.card-rounded {
-    border-radius: 0.3rem;
-  }
-  
-  .card.card-rounded .card-header {
-    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
-  }
-  
-  form .form-input {
-    width: 100%;
-    padding: 0.75rem;
-    color: #1a1a1a;
-    background-color: #a1a1a1;
-    margin: 0.625rem 0;
-    font-size: 1.2rem;
-    border: 1px solid #000000;
-    border-radius: 0.3rem;
-  }
-  
-  form .form-input.form-input-squared {
-    border-radius: 0;
-  }
-  
   form [type='checkbox'],
   form [type='radio'] {
     display: inline-block;
@@ -88,35 +45,8 @@
     margin-right: auto;
   }
   
-  .container.container-fluid {
-    width: 92%;
-  }
-
-  
   .five-day-card {
     width: 20%;
     padding-left: 15px;
   }
-  
-  .weather-img {
-    border-style: none;
-    vertical-align: middle;
-  }
-  
-  .weather-search {
- background-color: #3791bb;
-  }
-  
-  #form-heading {
-    margin: 0.5rem;
-  }
-  
-  .weather-hr {
-    margin-left: 0.5rem;
-    width: 100%;
-  }
-  
-  .weather-header {
-   background-color: #000000;
-  }
-  
+ 

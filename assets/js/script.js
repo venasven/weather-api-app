@@ -136,7 +136,7 @@ function fetchCoords(search) {
       if (!data[0]) {
         alert('Location not found');
       } else {
-        fetchWeather(data[0]); // Fetch weather data for the first matching location
+        fetchWeather(data[0]);
       }
     })
     .catch(function (err) {
